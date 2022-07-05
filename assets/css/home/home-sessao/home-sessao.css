@@ -1,4 +1,12 @@
 .home-sessao{
+    background: url(../../../img/Forma\ 2.png) no-repeat right;
+    background-size: contain;
+    background-size: 74.03px 415px;
+    color: var(--branco);
+    background-position-y: 20%;
+    position: relative;
+    top: -140px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;

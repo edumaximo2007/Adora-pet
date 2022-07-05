@@ -1,11 +1,5 @@
 .header-imagem{
-    position: relative;
-    left: 55px;
-    top: -17px;
-}
-
-
-.header-imagem__imagem{
-    width: 189.96px;
-    height: 243.41px;
+    background: url(../../img/Patas.png) no-repeat;
+    width: 138px;
+    background-position: 1px -17px;
 }

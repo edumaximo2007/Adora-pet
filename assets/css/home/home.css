@@ -1,11 +1,3 @@
 .home{
-    background: url(../../img/Forma\ 2.png) no-repeat right;
-    background-size: contain;
-    background-size: 84.03px 415px;
-    background-position-y: 28%;
-    background-position-x: 105%;
-    position: relative;
-    top: -100px;
-    color: var(--branco);
-    height: 560px;
+    height: 84vh;
 }
