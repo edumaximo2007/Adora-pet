@@ -1,0 +1,9 @@
+.login-sessao__formulario{
+    text-align: center;
+    color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 336px;
+    width: 312px;  
+}

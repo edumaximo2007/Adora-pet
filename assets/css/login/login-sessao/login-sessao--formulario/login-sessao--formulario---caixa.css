@@ -1,0 +1,7 @@
+.login-sessao__formulario--caixa{
+    position: relative;
+
+}
+.login-sessao__formulario--caixa:nth-last-child(3){
+    margin-top: 20px;
+}

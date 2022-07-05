@@ -1,0 +1,10 @@
+.login-sessao__formulario--span___senha,
+.login-sessao__formulario--span___senha-inativa {
+    position: absolute;
+    right: 10px;
+    top: 34px;
+    cursor: pointer;
+}
+.login-sessao__formulario--span___senha-inativa{
+    display: none;
+}

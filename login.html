@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6426497bb7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/header/logo/logo.css">
     <link rel="stylesheet" href="./assets/css/header/logo/logo-imagem.css">
@@ -20,18 +21,17 @@
     <link rel="stylesheet" href="./assets/css/header/nav/nav-lista--item.css">
     <link rel="stylesheet" href="./assets/css/header/nav/nav-lista--item---link.css">
     <link rel="stylesheet" href="./assets/css/header/nav/nav-lista--item---link----img.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--paragrafo.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---caixa.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---span.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---span--senha.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---label.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---input.css">
-    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---button.css">
+    <link rel="stylesheet" href="./assets/css/login/login.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao/login-sessao--paragrafo.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao/login-sessao--formulario.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao/login-sessao--formulario/login-sessao--formulario---caixa.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao/login-sessao--formulario/login-sessao--formulario---link.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao/login-sessao--formulario/login-sessao--formulario---button.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao/login-sessao--formulario/login-sessao--formulario---input.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao/login-sessao--formulario/login-sessao--formulario---label.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao/login-sessao--formulario/login-sessao--formulario---span--senha.css">
+    <link rel="stylesheet" href="./assets/css/login/login-sessao/login-sessao--formulario/login-sessao--formulario---span.css">
     <link rel="stylesheet" href="./assets/css/footer/footer.css">
     <link rel="stylesheet" href="./assets/css/footer/footer-link.css">
     <title>Adora Pet</title>
@@ -56,27 +56,28 @@
             </ul>
         </nav>
         <div class="header-imagem">
-            <img class="header-imagem__imagem" src="./assets/img/Patas.png" alt="pastas">
         </div>
     </header>
     <main class="login">
-        <section class="cadastro-sessao">
-            <img class="cadastro-sessao__imagem" src="./assets/img/Logo2.png" alt="">
-            <p class="cadastro-sessao__paragrafo">Já tem conta? Faça seu login:</p>
-                <form class="cadastro-sessao__formulario" action="">
-                    <div class="cadastro-sessao__formulario--caixa">                  
-                        <label class="cadastro-sessao__formulario--label" for="">Email</label>
-                        <input class="cadastro-sessao__formulario--input" type="email" placeholder="Escolha seu melhor email" required>
-                        <span class="cadastro-sessao__formulario--span">Digite um email valido</span>
+        <section class="login-sessao">
+            <img class="login-sessao__imagem" src="./assets/img/Logo2.png" alt="">
+            <p class="login-sessao__paragrafo">Já tem conta? Faça seu login:</p>
+                <form class="login-sessao__formulario" action="">
+                    <div class="login-sessao__formulario--caixa">                  
+                        <label class="login-sessao__formulario--label" for="">Email</label>
+                        <input class="login-sessao__formulario--input" type="email" placeholder="Escolha seu melhor email" required>
+                        <span class="login-sessao__formulario--span">Digite um email valido</span>
                     </div>    
-                    <div class="cadastro-sessao__formulario--caixa">
-                        <label class="cadastro-sessao__formulario--senha" for="">Senha</label>
-                        <input class="cadastro-sessao__formulario--input" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." placeholder="Crie uma senha" requireds>
-                        <span class="cadastro-sessao__formulario--span___senha"><i class="fa-solid fa-eye-slash"></i></span>
-                        <span class="cadastro-sessao__formulario--span___senha-inativa"><i class="fa-solid fa-eye"></i></span>
+                    <div class="login-sessao__formulario--caixa">
+                        <label class="login-sessao__formulario--senha" for="">Senha</label>
+                        <input class="login-sessao__formulario--input" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." placeholder="Crie uma senha" requireds>
+                        <span class="login-sessao__formulario--span___senha"><i class="fa-solid fa-eye-slash"></i></span>
+                        <span class="login-sessao__formulario--span___senha-inativa"><i class="fa-solid fa-eye"></i></span>
+                        <span class="login-sessao__formulario--span">Senha invalida</span>
                     </div>
-                    <button class="cadastro-sessao__formulario--button">
-                        Cadastrar
+                    <a class="login-sessao__formulario--link" href="#">Esqueci minha senha</a>
+                    <button class="login-sessao__formulario--button">
+                        Entrar
                     </button>
                 </form>
             </section>

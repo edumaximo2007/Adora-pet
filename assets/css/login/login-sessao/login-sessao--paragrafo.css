@@ -1,0 +1,12 @@
+.login-sessao__paragrafo{
+    color: var(--azul);
+    font-family: var(--fonte-textos);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    width: 80%;
+    height: 76px;
+    margin-top: 38px;
+}
