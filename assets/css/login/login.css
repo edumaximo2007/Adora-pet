@@ -1,0 +1,11 @@
+.login{
+    background: url(../../img/Forma\ 3.png) no-repeat left;
+    background-size: contain;
+    background-size: 82.73px 415px;
+    background-position-y: 100%;
+    position: relative;
+    top: -100px;
+    color: var(--branco);
+    height: 560px;
+    font-family: var(--fonte-textos);
+}

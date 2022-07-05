@@ -1,0 +1,8 @@
+.home-sessao__titulo{
+    font-family: var(--boas-vindas);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+}

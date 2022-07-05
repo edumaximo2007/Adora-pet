@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul: #3772FF;
+    --branco: #FFFFFF;
+    --coral: #FC7071;
+    --cinza: #737380;
+    --cinza-claro: #F7F7F7;
+    --preto-cinzento: #BCBCBC;
+    --secundaria-verde: #36D6AD;
+    --boas-vindas: 'IBM Plex Sans', sans-serif;
+    --fonte-textos:  'Poppins', sans-serif;
+}

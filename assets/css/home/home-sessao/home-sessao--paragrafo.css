@@ -1,0 +1,12 @@
+.home-sessao__paragrafo{
+    height: 72px;
+    width: 70%;
+    font-family: var(--fonte-textos);
+    text-align: center;
+    font-style: Regular;
+    Font-size: 16px;
+    Line-height: 24px;
+    Line-height: 100%;
+    vertical-align: Top;
+    
+}

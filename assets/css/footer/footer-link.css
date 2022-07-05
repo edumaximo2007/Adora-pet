@@ -1,0 +1,6 @@
+.footer-link{
+    text-decoration: none;
+    color: var(--branco);
+    position: relative;
+    top: 45%;
+}

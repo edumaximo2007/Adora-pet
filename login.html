@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Inter:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6426497bb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/header/logo/logo.css">
+    <link rel="stylesheet" href="./assets/css/header/logo/logo-imagem.css">
+    <link rel="stylesheet" href="./assets/css/header/header-imagem.css">
+    <link rel="stylesheet" href="./assets/css/header/logo/logo-imagem.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav-lista.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav-lista--item.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav-lista--item---link.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav-lista--item---link----img.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--paragrafo.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---caixa.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---span.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---span--senha.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---label.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---input.css">
+    <link rel="stylesheet" href="./assets/css/cadastro/cadastro-sessao/cadastro-sessao--formulario/cadastro-sessao--formulario---button.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer-link.css">
+    <title>Adora Pet</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo__imagem" src="./assets/img/Logo.svg" alt="logo">
+        </div>
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__lista___item">
+                    <a class="nav__lista___item--link" href="index.html">
+                        <img class="nav__lista___item--link-img" src="./assets/img/Casa.png" alt="home">
+                    </a>
+                </li>
+                <li class="nav__lista___item">
+                    <a class="nav__lista___item--link" href="#">
+                        <img class="nav__lista___item--link-img" src="./assets/img/Mensagens.png" alt="msg">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-imagem">
+            <img class="header-imagem__imagem" src="./assets/img/Patas.png" alt="pastas">
+        </div>
+    </header>
+    <main class="login">
+        <section class="cadastro-sessao">
+            <img class="cadastro-sessao__imagem" src="./assets/img/Logo2.png" alt="">
+            <p class="cadastro-sessao__paragrafo">Já tem conta? Faça seu login:</p>
+                <form class="cadastro-sessao__formulario" action="">
+                    <div class="cadastro-sessao__formulario--caixa">                  
+                        <label class="cadastro-sessao__formulario--label" for="">Email</label>
+                        <input class="cadastro-sessao__formulario--input" type="email" placeholder="Escolha seu melhor email" required>
+                        <span class="cadastro-sessao__formulario--span">Digite um email valido</span>
+                    </div>    
+                    <div class="cadastro-sessao__formulario--caixa">
+                        <label class="cadastro-sessao__formulario--senha" for="">Senha</label>
+                        <input class="cadastro-sessao__formulario--input" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." placeholder="Crie uma senha" requireds>
+                        <span class="cadastro-sessao__formulario--span___senha"><i class="fa-solid fa-eye-slash"></i></span>
+                        <span class="cadastro-sessao__formulario--span___senha-inativa"><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                    <button class="cadastro-sessao__formulario--button">
+                        Cadastrar
+                    </button>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <a class="footer-link" href="alura.com.br">2022 - Desenvolvido por Alura</a>
+        </footer>
+    </body>
+    </html>

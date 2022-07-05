@@ -1,0 +1,6 @@
+.footer{
+    background: var(--secundaria-verde);
+    height: 104px;
+    text-align: center;
+    position: relative;
+}

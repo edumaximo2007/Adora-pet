@@ -1,0 +1,13 @@
+.cadastro-sessao__formulario--input{
+    background: var(--cinza-claro);
+    border: none;
+    border-radius: 6px;
+    color: var(--preto-cinzento);
+    font-size: 12px;
+    height: 40px;
+    left: 24px;
+    top: 399px;
+    text-align: center;
+    width: 312px;
+}
+    
