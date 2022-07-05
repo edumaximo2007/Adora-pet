@@ -1,14 +1,10 @@
 .cadastro-sessao__paragrafo{
-    align-items: center;
     color: var(--azul);
-    display: flex;
-    font-family: var(--fonte-textos);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;    
-    height: 72px;
-    text-align: center;
     width: 80%;
-    
+    height: 72px;
+    margin: 0 auto; 
 }

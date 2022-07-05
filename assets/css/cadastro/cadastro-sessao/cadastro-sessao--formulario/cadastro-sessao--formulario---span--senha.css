@@ -1,13 +1,13 @@
 .cadastro-sessao__formulario--span___senha {
     position: absolute;
     right: 10px;
-    bottom: 10px;
+    bottom: 20px;
     cursor: pointer;
 }
 .cadastro-sessao__formulario--span___senha-inativa{
     position: absolute;
     right: 10px;
-    bottom: 10px;
+    bottom: 20px;
     display: none;
     cursor: pointer;
 }

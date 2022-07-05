@@ -1,3 +1,7 @@
 .cadastro-sessao__formulario--caixa{
     position: relative;
 }
+
+.cadastro-sessao__formulario--caixa:nth-last-child(-n+4){
+    margin-top: 15px;
+}
