@@ -1,0 +1,12 @@
+.mensagem-sessao__formulario--button{
+    padding: 15px 15px;
+    border-radius: 6px;
+    border: none;
+    background: var(--coral);
+    color: var(--branco);
+    width: 148px;
+    height: 40px;
+    align-self: center;
+    margin-top: 24px;
+    cursor: pointer;
+}

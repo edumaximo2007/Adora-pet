@@ -1,0 +1,14 @@
+.mensagem-sessao__formulario--mensagem{
+    width: 280px;
+    height: 172px;
+    background: var(--branco);
+    mix-blend-mode: normal;
+    border-radius: 6px;
+    margin: 10px 20px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    box-sizing: border-box;
+}
