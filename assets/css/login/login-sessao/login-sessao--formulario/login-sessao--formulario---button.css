@@ -1,9 +1,8 @@
 .login-sessao__formulario--button{
     padding: 15px 15px;
-    border-radius: 4px;
+    border-radius: 6px;
     border: none;
     background: var(--coral);
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     color: var(--branco);
     width: 148px;
     height: 40px;
