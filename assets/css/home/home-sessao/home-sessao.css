@@ -1,0 +1,10 @@
+.home-sessao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -140px;
+    text-align: center;
+    z-index: -1;
+}

@@ -1,0 +1,6 @@
+.home-sessao__pets--caixa___pet{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
