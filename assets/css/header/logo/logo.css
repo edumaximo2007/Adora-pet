@@ -1,3 +1,10 @@
 .logo{
     display: none;
 }
+@media  (min-width: 767.9px) {
+    .logo{
+        display: block;
+        padding-top: 63px;
+        padding-left: 48px;
+    }
+}

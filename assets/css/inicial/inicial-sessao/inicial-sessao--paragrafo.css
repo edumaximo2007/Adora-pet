@@ -1,12 +1,23 @@
 .inicial-sessao__paragrafo{
     height: 72px;
-    width: 70%;
+    width: 248px;
     font-family: var(--fonte-textos);
     text-align: center;
     font-style: Regular;
     Font-size: 16px;
     Line-height: 24px;
-    Line-height: 100%;
     vertical-align: Top;
-    
+    padding: 25px 0 20px;
 }
+
+@media (min-width: 767.9px) {
+    .inicial-sessao__paragrafo{
+        font-weight: 400;
+        font-size: 18px;
+        font-style: normal;
+        height: 78px;
+        width: 344px;
+        line-height: 144%;
+    }
+}
+

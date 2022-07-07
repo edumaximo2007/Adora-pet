@@ -1,6 +1,16 @@
 .inicial-sessao__imagem-ilustracao{
-    margin-top: 20px;
+    margin-top: 40px;
     width: 247.34px;
     right: 30px;
     position: relative;
+    bottom: 24px;
+}
+
+@media (min-width: 767.9px) {
+    .inicial-sessao__imagem-ilustracao{
+        height: 421.99993896484375px;
+        width: 338.2792053222656px;
+        margin-top: 70px;
+        
+    }
 }

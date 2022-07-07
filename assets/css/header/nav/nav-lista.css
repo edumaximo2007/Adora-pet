@@ -4,3 +4,10 @@
     align-items: center;
     margin-left: 30px;
 }
+
+@media (min-width: 767.9px) {
+    .nav__lista{
+        gap: 68px;
+        margin-left: 65px;
+    }
+}

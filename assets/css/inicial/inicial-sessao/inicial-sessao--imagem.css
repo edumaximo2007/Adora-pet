@@ -2,3 +2,11 @@
     width: 186.67px;
     height: 46px;
 }
+
+@media (min-width: 767.9px) {
+    .inicial-sessao__imagem{
+        height: 62px;
+        width: 251.59475708007812px;
+        
+    }
+}

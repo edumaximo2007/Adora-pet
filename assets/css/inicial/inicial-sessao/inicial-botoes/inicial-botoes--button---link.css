@@ -2,3 +2,12 @@
     text-decoration: none;
     color: var(--branco);
 }
+
+@media (min-width: 767.9px) {
+    .inicial-botoes__button--link{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

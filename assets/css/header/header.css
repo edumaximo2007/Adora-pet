@@ -7,3 +7,12 @@
     height: 295px;
     z-index: 1;
 }
+
+@media  (min-width: 767.9px) {
+    .header{
+        justify-content: flex-start;
+        background-size:560.9680786132812px  470px;
+        height: 470px;  
+    }
+}
+
