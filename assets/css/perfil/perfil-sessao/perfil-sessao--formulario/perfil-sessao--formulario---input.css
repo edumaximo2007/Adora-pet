@@ -1,0 +1,14 @@
+.perfil-sessao__formulario--input{
+    background: var(--branco);
+    border: none;
+    border-radius: 6px;
+    color: var(--preto-cinzento);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 48px;
+    text-align: left;
+    width: 280px;
+    margin: 15px 20px;
+    padding-left: 10px;
+}

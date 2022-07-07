@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Inter:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6426497bb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/header/logo/logo.css">
+    <link rel="stylesheet" href="./assets/css/header/logo/logo-imagem.css">
+    <link rel="stylesheet" href="./assets/css/header/header-link.css">
+    <link rel="stylesheet" href="./assets/css/header/header-link/header-link--imagem.css">
+    <link rel="stylesheet" href="./assets/css/header/logo/logo-imagem.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav-lista.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav-lista--item.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav-lista--item---link.css">
+    <link rel="stylesheet" href="./assets/css/header/nav/nav-lista--item---link----img.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--titulo.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario---titulo.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario---label.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario---label--imagem.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario---paragrafo.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario---input.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario---file.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario---caixa.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario--caixa---titulo.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario---mensagem.css">
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-sessao/perfil-sessao--formulario/perfil-sessao--formulario---button.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer-link.css">
+    <title>Adora Pet - Mensagem</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo__imagem" src="./assets/img/Logo.svg" alt="logo">
+        </div>
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__lista___item">
+                    <a class="nav__lista___item--link" href="index.html">
+                        <img class="nav__lista___item--link-img" src="./assets/img/Casa.png" alt="home">
+                    </a>
+                </li>
+                <li class="nav__lista___item">
+                    <a class="nav__lista___item--link" href="/mensagem.html">
+                        <img class="nav__lista___item--link-img" src="./assets/img/Mensagens.png" alt="msg">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a class="header-link" href="/perfil.html">
+            <img class="header-link__imagem" src="./assets/img/Ellipse 2.png" alt="Usuário" id="usuario">
+        </a>
+    </header>
+    <main class="perfil">
+        <section class="perfil-sessao">
+            <h1 class="perfil-sessao__titulo">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</h1>
+            <form class="perfil-sessao__formulario" action="">
+                <h2 class="perfil-sessao__formulario___titulo">Perfil</h2>
+                <h3 class="perfil-sessao__formulario--caixa___titulo">Foto</h3>
+                <div class="perfil-sessao__formulario--caixa">
+                    <label class="perfil-sessao__formulario--label" for="arquivo">
+                        <img class="perfil-sessao__formulario--label___imagem" src="./assets/img/Ellipse 2.png" alt="Usuário">
+                    </label>
+                    <input class="perfil-sessao__formulario--file" type="file" name="arquivo" id="arquivo">
+                    <p class="perfil-sessao__formulario--paragrafo">Clique na foto para editar</p>
+                </div>    
+                <div class="perfil-sessao__formulario--caixa">                  
+                    <label class="perfil-sessao__formulario--label" for="">Nome</label>
+                    <input class="perfil-sessao__formulario--input" type="text" placeholder="Insira seu nome completo" required>
+                </div>    
+                <div class="perfil-sessao__formulario--caixa">
+                    <label class="perfil-sessao__formulario--label" for="">Telefone</label>
+                    <input class="perfil-sessao__formulario--input" type="tel" placeholder="+55 48 XXXXX-XXXX" requireds>
+                </div>
+                <div class="perfil-sessao__formulario--caixa">
+                    <label class="perfil-sessao__formulario--label" for="">Cidade</label>
+                    <input class="perfil-sessao__formulario--input" type="text" placeholder="Florianopolis" requireds>
+                </div>
+                <div class="perfil-sessao__formulario--caixa">
+                    <label class="perfil-sessao__formulario--label" for="">Mensagem</label>
+                    <textarea class="perfil-sessao__formulario--mensagem" name="mensagem" id="" cols="30" rows="10" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."></textarea>
+                </div>
+                <button class="perfil-sessao__formulario--button">
+                    Enviar
+                </button>
+            </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <a class="footer-link" href="alura.com.br">2022 - Desenvolvido por Alura</a>
+        </footer>
+    </body>
+    </html>

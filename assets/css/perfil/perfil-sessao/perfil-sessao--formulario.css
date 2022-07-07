@@ -1,0 +1,13 @@
+.perfil-sessao__formulario{
+    color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 825px;
+    width: 312px;
+    background: var(--cinza-claro-fundos);
+    border-radius: 10px;
+    
+}
+
