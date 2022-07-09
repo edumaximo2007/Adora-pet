@@ -1,4 +1,16 @@
 .home-sessao__pets{
     margin-top: 10px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media (min-width: 767.9px) {
+    .home-sessao__pets{
+     display: grid;
+     grid-template-columns: 344px 344px;
+     column-gap: 16px;
+     row-gap: 5px;
+    }
 }

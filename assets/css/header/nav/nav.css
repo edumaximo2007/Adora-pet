@@ -4,5 +4,6 @@
  @media (min-width: 767.9px) {
     .nav{
         padding-top: 63px;
+        flex-grow: 6;
     }
  }

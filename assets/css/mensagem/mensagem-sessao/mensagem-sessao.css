@@ -6,3 +6,10 @@
     position: relative;
     top: -140px;
 }
+
+
+@media (min-width: 767.9px) {
+    .mensagem-sessao{
+        top: -185px;
+    }
+}

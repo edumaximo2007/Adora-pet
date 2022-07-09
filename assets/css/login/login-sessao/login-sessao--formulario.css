@@ -7,3 +7,10 @@
     height: 336px;
     width: 312px;  
 }
+
+@media (min-width: 767.9px) {
+    .login-sessao__formulario{ 
+        width: 344px;  
+        
+    }
+}

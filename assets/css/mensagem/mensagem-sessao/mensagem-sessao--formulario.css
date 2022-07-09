@@ -8,6 +8,16 @@
     width: 312px;
     background: var(--cinza-claro-fundos);
     border-radius: 10px;
+  
     
+}
+
+@media (min-width:767.9px) {
+    .mensagem-sessao__formulario{
+        height: 628px;
+        width: 524px;
+        border-radius: 6px;
+        
+    }
 }
 

@@ -10,3 +10,10 @@
     margin-bottom: 40px;
     margin-top: 5px;
 }
+
+@media (min-width:767.9px) {
+    .perfil-sessao__titulo{
+        width: 524px;
+        height: 52px;
+    }
+}

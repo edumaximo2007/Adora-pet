@@ -9,5 +9,7 @@
     .nav__lista{
         gap: 68px;
         margin-left: 65px;
+        position: absolute;
+        left: 200px;
     }
 }

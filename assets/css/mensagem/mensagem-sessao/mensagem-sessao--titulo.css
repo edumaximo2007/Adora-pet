@@ -10,3 +10,12 @@
     margin-bottom: 40px;
     margin-top: 5px;
 }
+
+@media (min-width:767.9px) {
+    .mensagem-sessao__titulo{
+        width: 524px;
+        height: 52px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+}

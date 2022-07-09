@@ -11,4 +11,12 @@
     width: 280px;
     margin: 15px 20px;
     padding-left: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 767.9px) {
+    .mensagem-sessao__formulario--input{
+        width: 492px;
+        height: 48px;
+    }
 }

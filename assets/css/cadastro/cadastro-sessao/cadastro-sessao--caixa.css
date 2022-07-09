@@ -1,0 +1,23 @@
+.cadastro-sessao__caixa{
+    color: var(--azul);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;    
+    width: 312px;
+    height: 71px;
+    margin: 5px auto; 
+}
+
+@media (min-width: 767.9px) {
+    .cadastro-sessao__caixa{
+        height: 78px;
+        width: 525px;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px auto;
+    }
+}

@@ -4,3 +4,9 @@
     width: 100%;
     height: 142vh;
 }
+
+@media (min-width: 767.9px) {
+    .perfil{
+        height: 130vh;
+    }
+}

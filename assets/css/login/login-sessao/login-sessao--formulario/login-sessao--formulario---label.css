@@ -1,0 +1,14 @@
+.login-sessao__formulario--label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (min-width: 767.9px) {
+    .login-sessao__formulario--label{
+        font-size: 18px;
+        letter-spacing: 0px;
+        margin: 0 auto;
+    }
+}

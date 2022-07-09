@@ -5,3 +5,10 @@
     font-family: var(--fonte-textos);
     margin-bottom: 20px;
 }
+
+
+@media (min-width: 767.9px) {
+    .cadastro{
+        background: none;
+    }
+}

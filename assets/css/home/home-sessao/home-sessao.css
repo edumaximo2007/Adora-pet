@@ -8,3 +8,9 @@
     text-align: center;
     z-index: -1;
 }
+
+@media (min-width:767.9px) {
+    .home-sessao{
+        top: -203px;
+    }
+}

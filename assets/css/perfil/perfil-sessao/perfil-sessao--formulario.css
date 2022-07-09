@@ -11,3 +11,9 @@
     
 }
 
+@media (min-width: 767.9px) {
+    .perfil-sessao__formulario{
+        height: 756px;
+        width: 524px;        
+    }
+}

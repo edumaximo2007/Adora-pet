@@ -3,3 +3,12 @@
     top: -140px;
     text-align: center;
 }
+
+@media (min-width: 767.9px) {
+    .cadastro-sessao{
+        top: -203px;
+        background: url(../../img/Forma\ 2.png) no-repeat right;
+        background-size:134.45px 664px;
+        height: 664px;
+    }
+}

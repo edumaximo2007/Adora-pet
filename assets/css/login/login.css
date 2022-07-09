@@ -6,3 +6,10 @@
     margin-bottom: 30px;
     background-position-y: 101%;
 }
+
+@media (min-width:767.9px) {
+    .login{
+        background:none;
+        height: 90vh;
+    }
+}

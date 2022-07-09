@@ -7,3 +7,14 @@
     top: -140px;
     text-align: center;
 }
+
+@media (min-width: 767.9px) {
+    .login-sessao{
+        top: -315px;
+        background: url(../../img/Forma\ 2.png) no-repeat right;
+        background-size:134.45px 664px;
+        background-position-y: 120px;
+        height: 664px;
+        padding-bottom: 120px;
+    }
+}

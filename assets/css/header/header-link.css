@@ -3,3 +3,10 @@
     left: 80%;
     top: 6%;
 }
+
+@media (min-width: 767.9px) {
+    .header-link{
+        left: 90%;
+        top: 7%;
+    }
+}

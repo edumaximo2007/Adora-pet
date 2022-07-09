@@ -4,3 +4,9 @@
     width: 100%;
     height: 106vh;
 }
+
+@media (min-width: 767.9px) {
+    .mensagem{
+        height: 90vh;
+    }
+}

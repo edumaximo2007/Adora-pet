@@ -8,4 +8,8 @@
     width: 312px;
 }
 
-
+@media (min-width: 767.9px) {
+    .cadastro-sessao__formulario{
+        width: 344px;
+    }
+}

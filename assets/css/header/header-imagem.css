@@ -1,5 +1,14 @@
 .header-imagem{
     background: url(../../img/Patas.png) no-repeat;
     width: 138px;
-    background-position: 1px -17px;
+    background-position: 1% -35%;
+}
+
+@media (min-width: 767.9px) {
+    .header-imagem{
+        background-size: 292px 374.15px;
+        width: 292px;
+        flex-grow: -1;
+        background-position: 67px -40px;
+    }
 }

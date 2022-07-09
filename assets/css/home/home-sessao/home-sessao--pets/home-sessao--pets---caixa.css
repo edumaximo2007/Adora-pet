@@ -3,8 +3,14 @@
     justify-content:space-evenly;
     align-items: center;
     flex-direction: row;
-    width: 100%;
+    width: 360px;
     height: 196px;
     background: var(--cinza-claro-fundos);
     margin-bottom: 10px;
+}
+
+@media (min-width:767.9px) {
+    .home-sessao__pets--caixa{
+        width: 344px;
+    }
 }

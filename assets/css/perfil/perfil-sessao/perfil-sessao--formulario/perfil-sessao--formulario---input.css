@@ -12,3 +12,10 @@
     margin: 15px 20px;
     padding-left: 10px;
 }
+
+@media (min-width: 767.9px) {
+    .perfil-sessao__formulario--input{
+        width: 492px;
+        height: 48px;
+    }
+}
