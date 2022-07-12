@@ -1,9 +1,21 @@
 .inicial{
-    height: 90vh;
+    height: 480px;
 }
 
-@media (min-width: 767.9px) {
+@media (min-width: 767.9px) and (max-width: 991.98px)  {
     .inicial{
-        height: 110vh;
+        height: 585px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .inicial{
+        height: 585px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .inicial{
+        height: 435px;
     }
 }

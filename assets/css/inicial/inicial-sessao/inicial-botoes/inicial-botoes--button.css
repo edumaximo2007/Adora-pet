@@ -13,3 +13,9 @@
         height: 48px;
     }
 }
+
+@media (min-width: 1200px) {
+    .inicial-botoes__button{
+        width: 362px;
+    }
+}

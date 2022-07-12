@@ -20,3 +20,10 @@
         background-position-y: 0%;
     }
 }
+
+@media (min-width: 1200px) {
+    .inicial-sessao{
+        top: -333px;
+        background-position-y: 40%;
+    }
+}

@@ -14,3 +14,11 @@
         
     }
 }
+
+@media (min-width: 1200px) {
+    .inicial-sessao__imagem-ilustracao{
+        height: 431.63238525390625px;
+        width: 346.0001220703125px;
+        
+    }
+}

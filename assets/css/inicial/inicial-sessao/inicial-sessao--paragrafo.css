@@ -21,3 +21,11 @@
     }
 }
 
+@media (min-width: 1200px) {
+    .inicial-sessao__paragrafo{
+        width: 488px;
+        height: 52px;
+        padding: 25px 0 25px;
+    }
+}
+
