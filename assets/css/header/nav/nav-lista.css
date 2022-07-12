@@ -13,3 +13,12 @@
         left: 200px;
     }
 }
+
+@media (min-width: 1200px) {
+    .nav__lista{
+        gap: 30px;
+        left: 320px;
+        margin-left: 15px;
+        top: 65px;
+    }
+}

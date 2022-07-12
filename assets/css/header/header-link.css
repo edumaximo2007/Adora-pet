@@ -10,3 +10,10 @@
         top: 7%;
     }
 }
+
+@media (min-width: 1200px) {
+    .header-link{
+        left: 85%;
+        top: 7%;
+    }
+}
