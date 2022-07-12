@@ -17,5 +17,12 @@
         height: 52px;
         font-size: 18px;
         line-height: 26px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mensagem-sessao__titulo{
+        padding-top: 20px;
     }
 }

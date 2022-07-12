@@ -10,6 +10,15 @@
 
 @media (min-width: 767.9px) {
     .mensagem-sessao{
-        top: -185px;
+        top: -220px;
+        background: url(../../../img/Forma\ 2.png) no-repeat right;
+        background-size: 134.44960021972656px 664px;
+        background-position-y: -1px ;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mensagem-sessao{
+        top: -285px;
     }
 }
