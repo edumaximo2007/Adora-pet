@@ -4,3 +4,9 @@
     text-align: center;
     position: relative;
 }
+
+@media (min-width: 1200px) {
+    .footer{
+        height: 80px;
+    }
+}
