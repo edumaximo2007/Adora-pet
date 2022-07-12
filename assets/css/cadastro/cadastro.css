@@ -6,9 +6,23 @@
     margin-bottom: 20px;
 }
 
-
-@media (min-width: 767.9px) {
+@media (min-width: 767.9px) and (max-width: 991.98px)  {
     .cadastro{
+        height: 585px;
+        background: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cadastro{
+        height: 585px;
+        background: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cadastro{
+        height: 535px;
         background: none;
     }
 }

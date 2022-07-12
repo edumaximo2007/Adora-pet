@@ -9,6 +9,15 @@
         top: -203px;
         background: url(../../img/Forma\ 2.png) no-repeat right;
         background-size:134.45px 664px;
-        height: 664px;
+        background-position-y:20px;
+        height: 684px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cadastro-sessao{
+        top: -333px;
+        background-position-y:90px;
+        height: 764px;
     }
 }

@@ -23,3 +23,11 @@
         width: 164px;
     }
 }
+
+@media (min-width: 1200px) {
+    .cadastro-sessao__formulario--button{
+        margin-top: 4px;
+        width: 174px;
+        padding: 8px 0;
+    }
+}

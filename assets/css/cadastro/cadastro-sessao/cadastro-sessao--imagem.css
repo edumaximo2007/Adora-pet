@@ -1,0 +1,19 @@
+.cadastro-sessao__imagem{
+    height: 34.36083221435547px;
+    width: 142.5399932861328px;
+    
+}
+
+@media (min-width: 767.9px) {
+    .cadastro-sessao__imagem{
+        height: 62px;
+        width: 251.59475708007812px;        
+    }
+}
+
+@media (min-width: 1200px) {
+    .cadastro-sessao__imagem{
+        height: 64px;
+        width: 259.7107238769531px;
+    }
+}

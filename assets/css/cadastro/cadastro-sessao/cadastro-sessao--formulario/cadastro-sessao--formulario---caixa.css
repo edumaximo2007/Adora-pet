@@ -5,3 +5,12 @@
 .cadastro-sessao__formulario--caixa:nth-last-child(-n+4){
     margin-top: 15px;
 }
+
+@media (min-width: 1200px) {
+    .cadastro-sessao__formulario--caixa:nth-last-child(-n+3){
+       width: 362px;
+       text-align: center;
+       margin: 15px auto;
+    }
+
+}

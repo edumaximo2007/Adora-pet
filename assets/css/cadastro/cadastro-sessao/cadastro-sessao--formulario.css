@@ -13,3 +13,10 @@
         width: 344px;
     }
 }
+
+@media (min-width: 1200px) {
+    .cadastro-sessao__formulario{
+        /* height: 361px; */
+        width: 552px; 
+    }
+}
