@@ -22,3 +22,9 @@
         width: 164px;
     }
 }
+
+@media (min-width: 1200px) {
+    .login-sessao__formulario--button{
+        width: 174px;
+    }
+}

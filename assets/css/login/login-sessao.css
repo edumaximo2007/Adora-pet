@@ -18,3 +18,11 @@
         padding-bottom: 120px;
     }
 }
+
+@media (min-width: 1200px) {
+    .login-sessao{
+        top: -473px;
+        background-position-y:220px;
+        height: 764px;
+    }
+}

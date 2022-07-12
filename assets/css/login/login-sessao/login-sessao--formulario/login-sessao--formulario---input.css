@@ -18,3 +18,13 @@
         line-height: 16px;
     }
 }
+
+@media (min-width: 1200px) {
+    .login-sessao__formulario--input:nth-last-child(-n+2){
+        width: 552px;  
+    }
+    .login-sessao__formulario--input{
+        width: 362px;
+        font-size: 16px;
+    }
+}

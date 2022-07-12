@@ -5,3 +5,12 @@
 .login-sessao__formulario--caixa:nth-last-child(3){
     margin-top: 20px;
 }
+
+@media (min-width: 1200px) {
+    .login-sessao__formulario--caixa:nth-last-child(-n+3){
+       width: 362px;
+       text-align: center;
+       margin: 15px auto;
+    }
+
+}

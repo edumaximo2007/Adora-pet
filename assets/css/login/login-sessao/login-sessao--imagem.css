@@ -5,3 +5,10 @@
         left: 258px;    
     }
 }
+
+@media (min-width:1200px) {
+    .login-sessao__imagem{
+        height: 64px;
+        width: 259.7107238769531px;   
+    }
+}

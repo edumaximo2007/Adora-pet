@@ -14,3 +14,9 @@
         
     }
 }
+
+@media (min-width: 1200px) {
+    .login-sessao__formulario{
+        width: 552px; 
+    }
+}
