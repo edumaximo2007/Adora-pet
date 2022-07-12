@@ -15,5 +15,14 @@
     .perfil-sessao__titulo{
         width: 524px;
         height: 52px;
+        font-size: 18px;
+        line-height: 26px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .perfil-sessao__titulo{
+        padding-top: 20px;
     }
 }

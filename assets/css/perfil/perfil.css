@@ -2,11 +2,23 @@
     font-family: var(--fonte-textos);
     margin-bottom: 30px;
     width: 100%;
-    height: 142vh;
+    height: 760px;
 }
 
-@media (min-width: 767.9px) {
+@media (min-width: 767.9px) and (max-width: 991.98px)  {
     .perfil{
-        height: 130vh;
+        height: 655px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .perfil{
+        height: 685px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .perfil{
+        height: 585px;
     }
 }
