@@ -19,3 +19,11 @@
         line-height: 20px;
     }
 }
+
+@media (min-width: 1200px) {
+    .home-sessao__titulo{
+        height: 20px;
+        width: 414px;
+        padding: 40px 0 20px;
+    }
+}

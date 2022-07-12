@@ -14,3 +14,9 @@
         width: 344px;
     }
 }
+
+@media (min-width: 1200px) {
+    .home-sessao__pets--caixa{
+        width: 363px;
+    }
+}

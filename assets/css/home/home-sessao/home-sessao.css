@@ -14,3 +14,12 @@
         top: -203px;
     }
 }
+
+@media (min-width: 1200px) {
+    .home-sessao{
+        background: url(../../../img/Forma\ 2.png) no-repeat right;
+        background-size:134.45px 664px;
+        background-position-y: -1px;
+        top: -303px;
+    }
+}
